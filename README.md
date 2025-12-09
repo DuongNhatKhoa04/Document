@@ -40,9 +40,9 @@ Một trang duy nhất, tóm tắt **những điều cần nhớ** để làm vi
 
 ```mermaid
 flowchart LR
-    P[Presentation / API] --> A[Application (CQRS)]
-    A --> D[Domain (Entities, VOs, Services, Events)]
-    I[Infrastructure (EF, External, Bus)] --> D
+    P["Presentation / API"] --> A["Application (CQRS)"];
+    A --> D["Domain (Entities, VOs, Services, Events)"];
+    I["Infrastructure (EF, External, Bus)"] --> D;
 ```
 - Mũi tên biểu thị **phụ thuộc**. Code luôn phụ thuộc **vào Domain** (không ngược lại).
 
