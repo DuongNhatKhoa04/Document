@@ -1,185 +1,152 @@
 ---
-title: Developer to CTO Documentation Hub
+title: .NET Backend Learning Hub
 author: Personal Engineering Roadmap
 status: Active
-version: 1.0
-last-updated: 2025-12-10
+version: 2.0
+last-updated: 2025-12-11
 classification: Internal
 ---
 
-# 1. Purpose  
-This document serves as the central documentation hub for my long-term learning roadmap from a .NET developer to a future CTO.  
-It provides structured navigation, classification, and access to all fundamental engineering knowledge, backend development, system architecture, fintech platforms, DevOps, and technical leadership materials.
+# 1. Purpose
+This document defines the official learning structure and documentation hub
+for the .NET Backend Roadmap (2025 Edition).  
+It organizes all technical knowledge — from core programming to cloud &
+microservices — following a structured, high-level format inspired by ISO 27001.
+
+# 2. Scope
+This documentation applies to:
+
+- C# fundamentals
+- .NET runtime & ecosystem
+- Backend & Web API development
+- Databases & ORM
+- Software architecture & design patterns
+- Security & DevSecOps foundations
+- Logging, monitoring & observability
+- Microservices & distributed systems
+- Cloud & DevOps automation
+- Engineering leadership & CTO skills
+
+# 3. Definitions
+**Fundamentals** — Core programming knowledge required before backend work.  
+**Backend Development** — API, database interaction, business logic.  
+**Architecture** — System design, patterns, high-level platform structure.  
+**Security** — Authentication, authorization, secure coding practices.  
+**Observability** — Logging, metrics, tracing, system monitoring.  
+**Microservices** — Distributed, event‑driven services communicating over network.
+
+# 4. Documentation Structure (11 Sections, aligned to roadmap)
+This documentation follows the official .NET Backend Roadmap 2025:
 
 ---
 
-# 2. Scope  
-This documentation hub applies to:
+## 4.1 C# Fundamentals
+Core language fundamentals for all backend engineers.
 
-- Core engineering foundations  
-- C# & .NET fundamental programming  
-- Backend & API development  
-- Databases & data systems  
-- System architecture & distributed systems  
-- Fintech platform engineering  
-- DevOps, cloud & security  
-- CTO mindset & technical leadership  
-
-It defines **how technical knowledge is structured, referenced, and continuously improved** throughout the learning journey.
+- [C# Basics](01-csharp-fundamentals/csharp-basics.md)
+- [OOP](01-csharp-fundamentals/oop.md)
+- [Generics](01-csharp-fundamentals/generics.md)
+- [Collections](01-csharp-fundamentals/collections.md)
+- [LINQ](01-csharp-fundamentals/linq.md)
+- [Async & Await](01-csharp-fundamentals/async.md)
 
 ---
 
-# 3. Definitions  
-
-**Engineering Foundations** — Core non-language-specific principles of software engineering and system design.  
-
-**Backend Development** — Server-side application development using .NET and related technologies.  
-
-**System Architecture** — High-level design of scalable, distributed, and secure software systems.  
-
-**Fintech Platforms** — Digital wallet, payment, trading, and compliance systems.  
-
-**CTO Roadmap** — Long-term technical and leadership growth path toward a Chief Technology Officer role.
+## 4.2 .NET Runtime & Project Fundamentals
+- [.NET Runtime](02-dotnet-runtime/runtime.md)
+- [CLR & Memory](02-dotnet-runtime/clr-memory.md)
+- [Dependency Injection](02-dotnet-runtime/dependency-injection.md)
+- [Project Structure](02-dotnet-runtime/project-structure.md)
 
 ---
 
-# 4. Documentation Structure  
-This documentation is divided into seven major domains.
+## 4.3 ASP.NET Core Web API
+- [API Basics](03-webapi/api-basics.md)
+- [Routing & Controllers](03-webapi/routing.md)
+- [Middleware](03-webapi/middleware.md)
+- [Validation](03-webapi/validation.md)
+- [Authentication & Authorization](03-webapi/auth.md)
+- [HttpClient / Refit](03-webapi/http-client.md)
 
 ---
 
-## 4.1 Engineering Foundations  
-Core principles and conceptual knowledge required for all architects and technical leaders.
-
-- [Engineering Principles](foundations/principles.md)
-- [Architecture Styles](foundations/architecture-styles.md)
-- [Domain Modeling](foundations/domain-modeling.md)
-- [Design Patterns](foundations/design-patterns.md)
-- [Implementation Patterns](foundations/implementation-patterns.md)
-
----
-
-## 4.2 C# & .NET Fundamentals  
-Programming foundation using C# and the .NET ecosystem.
-
-- [C# Basics](dotnet/csharp-basics.md)
-- [Object-Oriented Programming](dotnet/oop.md)
-- [Data Structures & Algorithms](dotnet/dsa.md)
-- [.NET Runtime & CLR](dotnet/runtime.md)
-- [Async & Multithreading](dotnet/async-multithreading.md)
+## 4.4 Entity Framework Core
+- [EF Core Basics](04-efcore/efcore-basics.md)
+- [LINQ-to-Entities](04-efcore/linq-to-entities.md)
+- [Relationships](04-efcore/relationships.md)
+- [Tracking & NoTracking](04-efcore/tracking.md)
+- [Loading Strategies](04-efcore/loading.md)
+- [Performance Optimization](04-efcore/optimization.md)
 
 ---
 
-## 4.3 Backend & API Development  
-Real-world backend system development.
-
-- [ASP.NET Core Basics](backend/aspnet-core-basics.md)
-- [RESTful API Design](backend/rest-api.md)
-- [Authentication & Authorization](backend/auth.md)
-- [Entity Framework Core](backend/ef-core.md)
-- [Dapper & Data Access](backend/dapper.md)
+## 4.5 Software Architecture & Clean Architecture
+- [Layered Architecture](05-architecture/layered.md)
+- [Clean Architecture](05-architecture/clean.md)
+- [Domain Model](05-architecture/domain-model.md)
+- [Repository & Service Pattern](05-architecture/repository-service.md)
 
 ---
 
-## 4.4 Databases & Data Systems  
-Data persistence, performance, and scalability.
-
-- [SQL Fundamentals](database/sql-basics.md)
-- [Transactions & Indexing](database/transactions.md)
-- [NoSQL Basics](database/nosql.md)
-- [Database Scaling](database/database-scaling.md)
-
----
-
-## 4.5 System Architecture & Distributed Systems  
-Designing scalable, resilient platforms.
-
-- [Monolith vs Microservices](architecture/monolith-vs-microservices.md)
-- [DDD & Clean Architecture](architecture/ddd-clean-architecture.md)
-- [Event-Driven Architecture](architecture/event-driven.md)
-- [Messaging & Streaming](architecture/messaging.md)
-- [High Availability & Scalability](architecture/high-availability.md)
+## 4.6 Design Patterns (Backend Perspective)
+- [Creational Patterns](06-design-patterns/creational.md)
+- [Structural Patterns](06-design-patterns/structural.md)
+- [Behavioral Patterns](06-design-patterns/behavioral.md)
+- [CQRS](06-design-patterns/cqrs.md)
+- [EventDriven Patterns](06-design-patterns/event-driven.md)
 
 ---
 
-## 4.6 Fintech Platform Engineering  
-Enterprise-grade fintech systems.
-
-- [Wallet Systems](fintech/wallet.md)
-- [Payment Systems](fintech/payment.md)
-- [Trading Systems](fintech/trading.md)
-- [Compliance & Risk](fintech/compliance.md)
+## 4.7 Security (Backend Developer Security Standard)
+- [JWT](07-security/jwt.md)
+- [OAuth2](07-security/oauth2.md)
+- [OWASP Top 10](07-security/owasp-top10.md)
+- [Data Protection](07-security/data-protection.md)
 
 ---
 
-## 4.7 DevOps, Cloud & Security  
-Infrastructure automation, cloud platforms, and security fundamentals.
-
-- [Linux Basics](devops/linux-basics.md)
-- [Docker Fundamentals](devops/docker.md)
-- [CI/CD Basics](devops/cicd.md)
-- [Cloud Fundamentals](devops/cloud.md)
-- [System Security Basics](devops/security.md)
+## 4.8 Database & SQL
+- [SQL Basics](08-database/sql-basics.md)
+- [Indexes](08-database/indexes.md)
+- [Transactions](08-database/transactions.md)
+- [Execution Plans](08-database/execution-plan.md)
 
 ---
 
-## 4.8 CTO Mindset & Technical Leadership  
-Strategic thinking and leadership for technology executives.
-
-- [Engineering Management](cto/engineering-management.md)
-- [System Thinking](cto/system-thinking.md)
-- [Technical Decision Making](cto/technical-decisions.md)
-- [Startup vs Enterprise Architecture](cto/startup-vs-enterprise.md)
-- [CTO Career Roadmap](cto/cto-roadmap.md)
+## 4.9 Testing
+- [Unit Testing](09-testing/unit.md)
+- [Integration Testing](09-testing/integration.md)
+- [Mocking Frameworks](09-testing/mocking.md)
 
 ---
 
-# 5. Roles & Responsibilities  
-
-**Learner / Engineer** — Responsible for studying, practicing, and documenting knowledge.  
-
-**Future Architect** — Responsible for understanding system-level design and trade-offs.  
-
-**Future CTO** — Responsible for long-term technology strategy, platform scalability, and organizational technical leadership.
+## 4.10 Logging, Monitoring & Observability
+- [Logging Standards](10-observability/logging.md)
+- [Distributed Tracing](10-observability/tracing.md)
+- [Metrics & Dashboards](10-observability/metrics.md)
 
 ---
 
-# 6. Controls & Learning Requirements  
-
-This learning documentation is governed by the following control principles:
-
-- Foundational knowledge must be learned before advanced frameworks.  
-- Architecture reasoning must precede implementation decisions.  
-- Security and scalability must be considered at all design stages.  
-- All concepts must be backed by real technical projects.
-
-This structure aligns conceptually with:
-
-- ISO 27001 (Security & Governance Awareness)
-- PCI-DSS (Secure Development Mindset)
-- Enterprise Architecture Best Practices
+## 4.11 Microservices & DevOps
+- [Microservices Fundamentals](11-microservices-devops/microservices.md)
+- [Event-Driven Architecture](11-microservices-devops/event-driven.md)
+- [Docker](11-microservices-devops/docker.md)
+- [CI/CD](11-microservices-devops/cicd.md)
 
 ---
 
-# 7. References  
+# 5. Controls & Governance
+This learning structure follows governance principles inspired by ISO 27001:
 
-- Software Engineering Body of Knowledge (SWEBOK)  
-- Microsoft .NET Documentation  
-- Domain-Driven Design (Eric Evans)  
-- Clean Architecture (Robert C. Martin)  
-- Enterprise System Design Practices  
+- Knowledge must be structured and classified
+- Revisions must be traceable (versioning)
+- Topics must progress from foundational → advanced
+- Security awareness is mandatory
+- Documentation must be continuously reviewed & updated
 
----
-
-# 🧭 Navigation Summary  
-
-1. Start with **foundations/** to master engineering principles.  
-2. Move to **dotnet/** to build strong programming fundamentals.  
-3. Continue with **backend/** for real API development.  
-4. Study **database/** for data reliability and performance.  
-5. Learn **architecture/** for scalable system design.  
-6. Apply knowledge in **fintech/** domain systems.  
-7. Strengthen infrastructure skills in **devops/**.  
-8. Develop strategic mindset in **cto/**.
-
----
+# 6. References
+- Microsoft Docs
+- DDD by Eric Evans
+- Clean Architecture by Robert C. Martin
+- OWASP Standards
+- Enterprise Cloud Patterns
