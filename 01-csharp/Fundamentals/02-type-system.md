@@ -6,6 +6,18 @@
 
 ---
 
+# 📚 Mục lục
+
+- [Overview](#i-overview)
+- [Namespaces](#ii-namespaces)
+- [Classes](#iii-classes)
+- [Records](#iv-records)
+- [Interfaces](#v-interfaces)
+- [Generics](#vi-generics)
+- [Tuples and anonymous types](#vii-tuples--anonymous-types)
+
+---
+
 # 🌟 I. OVERVIEW
 
 ## 1. "C# là ngôn ngữ strongly typed nghĩa là gì?"
