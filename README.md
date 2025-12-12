@@ -6,7 +6,8 @@ status: Active
 version: 2.0
 last-updated: 2025-12-11
 classification: Internal
-------------------------
+
+---
 
 # 1. Purpose
 
