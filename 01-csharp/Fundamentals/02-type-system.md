@@ -352,7 +352,7 @@ Runtime quyết định:
 
 ---
 
-# 🌟 II. NAMESPACES
+# II. NAMESPACES
 
 ---
 
@@ -553,7 +553,7 @@ Trong nhiều template .NET, compiler thêm một số **implicit global using**
 
 ---
 
-# 🌟 III. CLASSES
+# III. CLASSES
 
 ---
 
@@ -798,7 +798,7 @@ Thường dùng trong LINQ.
 
 ---
 
-# 🌟 IV. RECORDS
+# IV. RECORDS
 
 ---
 
@@ -1055,7 +1055,7 @@ if (p1 is Person { Name: "Vox" })
 
 ---
 
-# 🌟 V. INTERFACES
+# V. INTERFACES
 
 ---
 
@@ -1340,7 +1340,7 @@ Console.WriteLine(shape.Area());
 
 ---
 
-# 🌟 VI. GENERICS
+# VI. GENERICS
 
 ---
 
@@ -1635,7 +1635,7 @@ var x = Echo(5);       // T = int
 
 ---
 
-# 🌟 VII. TUPLES & ANONYMOUS TYPES
+# VII. TUPLES & ANONYMOUS TYPES
 ---
 
 # PART A — ANONYMOUS TYPES
