@@ -217,8 +217,6 @@ This section describes a fully expanded and detailed learning path, now simplifi
 
 Knowledge must be structured, versioned, and continuously improved. Security, architecture, and documentation standards apply across all levels.
 
-(giữ nguyên nội dung cũ)
-
 * Knowledge must be structured and classified.
 * Versioning ensures traceability.
 * Topics progress from foundational → advanced.
